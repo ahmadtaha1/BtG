@@ -1,6 +1,6 @@
 # Codes Introduction
 
-The codes contain three folders that are described as follows. 
+The codes contain three folders that are described as follows. This page also contains the main mauscript titled Buidlings-To-Grid Integration Framework. 
 
 # BtG-Codes
 
@@ -50,11 +50,11 @@ Step 9- Execute 'main_code_gonly.m' to simulate Scenario II of the test case sel
 
 Step 1- Open the file 'main_code.m', select the IEEE case file to be simulated given in line 13-17. Step 2- Open 'new_plot_two_fig.m' select the title of the plot in lines 36-38 and 76-78 to be BtG-GMPC. Step 3- Execute 'main_code.m' to simulate Scenario III of the test case selected.
 
-# .MAT Files
+# MAT Files
 
 This repository includes all the .mat files for the solution of the optimization problems for all scenarios for all casefiles. 
 
-# .MAT Files
+# MAT Files
 
 This repository includes all the MATLAB .fig files for the plots of the solutions for all scenarios for all casefiles. 
 
