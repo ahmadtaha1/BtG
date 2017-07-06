@@ -1,4 +1,4 @@
-function plot_final_result(time,N,Ng,Nb,hg,hb,T_p,z,g_s,b_s,base)
+function plot_final_result_BTG(time,N,Ng,Nb,hg,hb,T_p,z,g_s,b_s,base)
 % Author: Ankur Pipri
 % Date: 19th April 2017
 % If you wish to use full or any part of this material in your research,
@@ -102,9 +102,7 @@ set(gca,'XLim',[0 24],'YLim',[21 25],'XGrid','on','YGrid','on','XTick',[0:2:24],
 ylabel('$T_{\mathrm{zone}}$ ($^0$C)','interpreter','latex','fontname','Times New Roman','fontsize',fs);
 l=legend('Zone Temperature Range','Average Zone Temperature');
 set(l,'interpreter','latex','fontname','Times New Roman','fontsize',fs);
-% title('BtG-GMPC: Building Zone Temperatures and HVAC Loads','interpreter','latex','fontsize',fs);
-% title('Scenario II: Building Zone Temperatures and HVAC Loads','interpreter','latex','fontsize',fs);
-title('Scenario I: Building Zone Temperatures and HVAC Loads','interpreter','latex','fontsize',fs);
+title('BtG-GMPC: Building Zone Temperatures and HVAC Loads','interpreter','latex','fontsize',fs);
 
 % Building HVAC Loads
 subplot(2,1,2)
