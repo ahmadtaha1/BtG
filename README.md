@@ -12,7 +12,7 @@ The simulations for the proposed Buildings to Grid Integration is performed to c
 
 This repository includes all the .mat files for the solution of the optimization problems for all scenarios for all casefiles. 
 
-# MAT Files
+# Fig Files
 
 This repository includes all the MATLAB .fig files for the plots of the solutions for all scenarios for all casefiles. 
 
